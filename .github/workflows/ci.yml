@@ -117,7 +117,7 @@ jobs:
       - name: PHPUnit tests with coverage
         if: ${{ !cancelled() && matrix.coverage }}
         run: |
-          plugindir=$(find moodle -maxdepth 4 -type d -path '*/sms/gateway/africastalking' | head -1)
+          plugindir=$(find moodle -maxdepth 7 -type d -path '*/sms/gateway/africastalking' | head -1)
           # Moodle 5.1+ keeps web files, this script included, under public/.
           php "$(find moodle -maxdepth 6 -path '*/admin/tool/phpunit/cli/util.php' | head -1)" --buildcomponentconfigs
           cd moodle
