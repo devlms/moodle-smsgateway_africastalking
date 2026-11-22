@@ -34,9 +34,9 @@ use GuzzleHttp\Exception\GuzzleException;
  */
 class gateway extends \core_sms\gateway {
     /** @var string Live messaging endpoint. */
-    const API = 'https://api.africastalking.com/version1/messaging';
+    public const API = 'https://api.africastalking.com/version1/messaging';
     /** @var string Sandbox messaging endpoint. */
-    const SANDBOX_API = 'https://api.sandbox.africastalking.com/version1/messaging';
+    public const SANDBOX_API = 'https://api.sandbox.africastalking.com/version1/messaging';
 
     #[\Override]
     public function send(message $message): message {
