@@ -1,6 +1,6 @@
 # Africa's Talking SMS gateway (smsgateway_africastalking)
 
-Send Moodle's SMS messages (multi-factor authentication codes and any plugin that uses Moodle's SMS API) through Africa's Talking, which delivers SMS in Kenya, Nigeria, Uganda, Tanzania, Rwanda, Malawi and other African countries.
+Send Moodle's SMS messages (multi-factor authentication codes and any plugin that uses Moodle's SMS API) through Africa's Talking, a bulk SMS provider used across Africa.
 
 - Site administration > Plugins > SMS > Manage SMS gateways > Create new SMS gateway > Africa's Talking.
 - Enter your Africa's Talking username and API key, and optionally a registered sender ID or short code.
